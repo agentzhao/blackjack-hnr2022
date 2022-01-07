@@ -8,7 +8,7 @@ var numCardsPulled = 0;
 var player = {
     cards: [],
     score: 0,
-    money: 100
+    money: 10000
 };
 var dealer = {
     cards: [],
@@ -141,9 +141,11 @@ function endGame() {
     }
 }
 
+
 function dealerDraw() {
     dealer.cards.push(deck.deckArray[numCardsPulled]);
     dealer.score = getCardsValue(dealer.cards);
+    console.log(dealer.cards[0].rank);
     document.getElementById("dealer-cards").innerHTML = "Dealer Cards: " + JSON.stringify(dealer.cards);
     document.getElementById("dealer-score").innerHTML = "Dealer Score: " + dealer.score;
     numCardsPulled += 1;
