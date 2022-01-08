@@ -18,7 +18,7 @@ var deck = {
     deckArray: [],
     initialize: function () {
         var suitArray, rankArray, s, r;
-        suitArray = ["clubs", "diamonds", "hearts", "spades"];
+        suitArray = ["♣", "♢", "♡", "♤"];
         rankArray = [2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K", "A"];
         for (s = 0; s < suitArray.length; s += 1) {
             for (r = 0; r < rankArray.length; r += 1) {
