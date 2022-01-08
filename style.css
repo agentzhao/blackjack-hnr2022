@@ -1,0 +1,25 @@
+body {
+  font-family: Verdana;
+  background-color: #f8efea;
+  color: #e0475b;
+  text-align: center;
+  align-content: center;
+}
+
+h1 {
+  color: #192f01;
+  text-align: center;
+  align-content: center;
+  padding: 1px;
+  margin: 0px;
+}
+
+#cards {
+  font-weight: normal;
+  font-size: 5em;
+}
+#dealer-cards,
+#player-cards {
+  font-weight: normal;
+  /* font-size: 2em; */
+}
